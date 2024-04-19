@@ -1,4 +1,5 @@
 #!/bin/bash
+
 sudo mkdir -m 755 /etc/apt/keyrings
 sudo apt update
 sudo apt install -y apt-transport-https ca-certificates curl gpg
